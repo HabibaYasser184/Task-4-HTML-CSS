@@ -1,0 +1,106 @@
+.navbar {
+border-radius: 5px;
+   background: linear-gradient(
+    to right,
+    rgba(255, 140, 0, 0.8),   /* برتقالي شفاف */
+    rgba(220, 20, 60, 0.8)    /* أحمر كرزي شفاف */
+  );
+    padding: 0 15px;
+    height: 45%;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  }
+  .links a {
+    text-align: left;
+  margin-right: 5px;
+  text-decoration: none;
+  color: blue;
+  font-weight: 200;
+  font-size: 20px;
+
+}
+.title h2{
+     font-size:20px;
+    color: rgb(95, 58, 2);
+}
+.rotate {
+  display: inline-block;
+  transform: rotate(5deg); /* Try values like 20deg, -45deg, etc. */
+  color: #e63946; /* Optional: make the rotated letter a different color */
+  font-weight: bold;
+}
+.title h2::before {
+  content: "🍕";
+}
+  .form {
+    margin-bottom: 10px;
+  }
+
+  .form label {
+    display: inline-block;
+    width: 150px; 
+  }
+
+  .form input {
+    width: 200px; 
+  }
+  h2{
+    font-family: 'Pacifico', cursive;
+  }
+   blockquote{
+    color: #0f0401;
+    font-size: 20px;
+   }
+   blockquote::after{
+    content:"🍄‍🟫";
+   }
+   blockquote::before{
+
+    content:"🍄‍🟫";
+
+    }
+    body{
+         background-size: cover;
+  background-attachment: fixed; /* Optional: parallax effect */
+  background-position: center;
+          background-image: url('https://www.simplyrecipes.com/thmb/XqSAGaGF0FBFsoY6XTTm2IUeA28=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Bagel-Pizza-LEAD-6-ab2ff02d35164e2aa01c5466e4309823.jpg');
+    }
+   fieldset{
+      border-radius: 10px; 
+     background-color:rgba(121, 115, 106, 0.7);
+    
+    border-color: rgba(121, 115, 106, 0.7);
+    
+   }
+   input{
+ border-radius: 10px;
+ background-color:rgba(113, 102, 87, 0.9);  
+   }
+   textarea{
+     border-radius: 10px; 
+   }
+   legend{
+    font-size: 20Px;
+    font-weight: 200;
+   }
+   legend::before{
+     content:"🍄‍🟫";
+   }
+   #two:hover{
+
+    background-color: rgb(73, 215, 94);
+   }
+   #one:hover{
+      background-color: rgb(73, 215, 94);
+   }
+   footer{
+      border-radius: 5px;
+      background: linear-gradient(
+    to right,
+    rgba(255, 140, 0, 0.8),   /* برتقالي شفاف */
+    rgba(220, 20, 60, 0.8)    /* أحمر كرزي شفاف */
+  );
+   }
